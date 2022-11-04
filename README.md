@@ -69,7 +69,6 @@ export default function Chart () {
 }
 ```
 
-![Output](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee482a35-8e19-4c1d-814b-ee6685a41ff5/Untitled.png)
 
 Output
 
@@ -97,8 +96,6 @@ const greenPoints = points.filter(point => ChartPointClassifier(point) <= 0);
 <Scatter data={redPoints} fill="red" name="red" />
 <Scatter data={greenPoints} fill="green" name="green" />
 ```
-
-![Output](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8bd2494-6ad5-4e5a-b7c0-4abce34a5fb9/Untitled.png)
 
 Output
 
@@ -246,14 +243,8 @@ As we have to controll the Training, we will create a button that on clicked, ca
 <button onClick={onTrainClick}> Train </button>
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74fb6fb1-8bf4-498f-9b04-42f84a750e0b/Untitled.png)
-
- 
-
 So the code is still generating random points, but now on every time we click the button, the “Train” function is executed, it bets the value and we inibe or excite this behavior, then the Neuron adjusts the “Weights” state to get each time more similar results to the “GetType” function;
 
 Each more interations we do, more this Flow Occurs and consequently, more adjusted the weights are and more accurate the Neuron is, and after some clicks, the Neuron finnally learned how to classify correctly the Balls:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa6a6eee-2b07-441f-b0ae-d03b70d03494/Untitled.png)
 
 Congratulations 🗿
