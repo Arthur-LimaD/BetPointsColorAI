@@ -149,18 +149,6 @@ const ChartPointClassifier = (point)=> {
 
 As we can see, the Neuron Try betting their value on every time: 
 
-![The neuron bet similar to the correct way](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39c0314b-1243-473a-9aad-03b7a39c051c/Untitled.png)
-
-The neuron bet similar to the correct way
-
-![The Neuron bet all balls are green](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd0b97fa-07e5-4da7-b5c4-bb31690a8ac1/Untitled.png)
-
-The Neuron bet all balls are green
-
-![The neuron bet all balls are red](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6f9813e-378e-43a4-8e11-50b38d48f123/Untitled.png)
-
-The neuron bet all balls are red
-
 As the demonstrations above, the Neuron is still betting on a completely random way, now we have to teach it how to bet correctly, where its the function that realizes the **training**.
 
 So we are gonna create a Function that realizes the training.
